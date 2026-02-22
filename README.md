@@ -10,7 +10,7 @@ This repository is a day-by-day TypeScript practice project.
 
 ## Project structure
 
-- `Day1` to `Day7`: topic-based TypeScript practice files.
+- `Day1` to `Day8`: topic-based TypeScript practice files.
 - `.vscode/launch.json`: local debug configuration.
 
 ## Topics covered (so far)
@@ -19,6 +19,13 @@ This repository is a day-by-day TypeScript practice project.
 - Operators
 - Loops (`for`, `while`, `do...while`)
 - Named and anonymous functions
+- Arrow functions (`Day7/ArrowFunction.ts`)
+- Callback functions (`Day8/CallBackFunctions.ts`)
+- Function overloading (`Day8/FunctionOverloading.ts`)
+  - `getInfo(...)`: overloaded by `number` and `string` inputs
+  - `convertValue(...)`: overloaded with 2 return types
+    - `string -> number`
+    - `number -> string`
 
 ## Goal
 
